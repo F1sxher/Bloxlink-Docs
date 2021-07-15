@@ -1,0 +1,24 @@
+{
+  "name": "vuepress-theme-cool-starter",
+  "version": "2.1.0",
+  "main": "index.js",
+  "description": "A cool theme that has integrated some vue components, charts via charts, and markdown based diagrams plantuml and mermaid.",
+  "repository": "https://github.com/FriendlyUser/vuepress-theme-cool-starter",
+  "author": "FriendlyUser <davidli012345@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "docs:dev": "npx vuepress dev docs",
+    "docs:build": "npx vuepress build docs",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "@vuepress/plugin-pwa": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-theme-cool": "^1.3.1"
+  },
+  "devComments": {
+    "vuepress": "Install vuepress to test run plugins. According to https://github.com/vuejs/vuepress/issues/1608"
+  }
+}
